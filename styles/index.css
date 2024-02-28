@@ -1,0 +1,45 @@
+body{
+    background-color: #302E2B;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+}
+
+.squareRow{
+    display: flex;
+}
+
+.square{
+    width: 75px;
+    height: 75px;
+}
+
+.white{
+    background-color: #eeeed2;
+
+}
+
+.black{
+    background: #769656;
+
+}
+
+.piece{
+    width: 100%;
+    cursor: grab;
+}
+
+.highlight{
+    width: 35px;
+    display: block;
+    height: 32px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius:  50%;
+    background-color: rgba(0, 0, 0, 0.17);
+
+}
